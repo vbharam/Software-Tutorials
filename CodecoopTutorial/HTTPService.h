@@ -14,7 +14,7 @@
 // Static fucntion: its a only one of it. "+" sign means its static and you can call it globally on the class, without having to had created first instance of that class.
 
 // Block Syntax:
-typedef void(^onComplete)(NSDictionary * __nullable dataDict, NSString * __nullable errMessage);
+typedef void(^onComplete)(NSArray * __nullable dataArray, NSString * __nullable errMessage);
 
 @interface HTTPService : NSObject
 
